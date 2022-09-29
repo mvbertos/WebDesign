@@ -1,0 +1,18 @@
+input {
+    margin-bottom: 5px;
+}
+.invalid{
+    border-color: red;
+}
+button {
+    height: 30px;
+    width: 60px;
+    background-color: lightgreen;
+    border: none;
+}
+button:hover {
+    background-color: greenyellow;
+}
+button:active{
+    background-color: darkgreen;
+}
