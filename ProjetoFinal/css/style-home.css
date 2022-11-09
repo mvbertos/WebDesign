@@ -1,0 +1,253 @@
+.cabecalho {
+    background-image: var(--bs-gradient);
+    background-color: #ffc107;
+    padding: 20px 0 0;
+    text-align: center;
+    font-size: 16px;
+    height: 50px;
+}
+
+.menu {
+    background-color: #e6e600;
+    font-size: large;
+    min-height: 50px;
+}
+.menu a {
+    margin-right: 30px;
+    color: darkslategrey !important;
+    text-decoration: none;
+}
+.menu a:hover {
+    color: black !important;
+    text-decoration: solid;
+    font-weight: bold;
+}
+.div-navegacao {
+    text-align: center;
+    margin-right: 250px;
+}
+.pesquisa {
+    border-radius: 30px;
+    border: solid white 1px;
+}
+
+.menu img {
+    min-width: 140px;
+    min-height: 60px;
+    width: 10%;
+    padding: 10px 0 0 20px;
+}
+
+.bloco-jumbotron {
+    background-color: black;
+    color: white;
+    padding: 10%;
+}
+
+.buttonJB {
+    background-color: #1aff1a;
+    color: honeydew;
+    border: none;
+    box-shadow: 0px 5px 5px #008000;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 15px;
+}
+#produtos-bg {
+    width: 1010px;
+    height: 400px;
+    margin: 0 auto 0 auto;
+    background-color: rgb(255, 255, 255);
+}
+#produtos-bg h2 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.div-jogo {
+    width: 255px;
+    height: 255px;
+    float: left;
+    margin-left: 20px;
+}
+.div-jogo img {
+    max-height: 255px;
+    max-width: 255px;
+}
+.div-jogo img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.div-descricao-produto {
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: #ffc107;
+    color: black;
+}
+.mais-jogos {
+    width: 100%;
+    height: 100px;
+    padding-top: 20px;
+}
+.div-outros-jogos {
+    width: 320px;
+    height: 50px;
+    padding-top: 12px;
+    padding-left: 70px;
+    border-radius: 30px;
+    box-shadow: 0 0 1px rgb(119, 119, 119);
+    color: white;
+    background-color: rgb(39, 102, 175);
+    margin: 0 auto 0 auto;
+}
+.div-outros-jogos a {
+    color: white;
+    text-decoration: none;
+}
+.div-outros-jogos:hover {
+    background-color: rgb(23, 64, 110);
+}
+
+.propaganda-bg {
+    background-color: #253352;
+    padding: 2%;
+    text-align: center;
+    color: cornsilk;
+}
+
+.propaganda-bg img {
+    min-width: 140px;
+    min-height: 60px;
+    width: 10%;
+}
+
+.propaganda-bg h1 {
+    padding-bottom: 40px;
+}
+
+.video {
+    width: 965px;
+    height: 645px;
+    padding-top: 3px;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 30px black;
+    margin: 0 auto 0 auto;
+}
+
+.clientes {
+    text-align: center;
+}
+
+.div-clientes {
+    margin: 0 auto 0 auto;
+}
+
+.clientes span {
+    background-color: rgb(124, 9, 124);
+    border: 1px solid red;
+    margin: 10% 20px;
+    height: 400px;
+    width: 100%;
+}
+
+.clientes img {
+    width: 300px;
+    height: 290px;
+    border-radius: 170px;
+    border: 4px solid rgb(161, 159, 159);
+    margin-top: 20px;
+}
+
+.clientes p {
+    margin-top: 10px;
+}
+.rodape {
+    background-image: var(--bs-gradient);
+    text-align: center;
+    padding: 1% 0;
+    background-color: #e6e600;
+    height: 150px;
+    box-shadow: none;
+}
+.rodape i {
+    font-size: 40px;
+    padding-left: 20px;
+}
+#insta {
+    color: rgb(36, 36, 36);
+    transition: 0.3s;
+}
+
+#insta:hover {
+    color: rgb(238, 38, 178);
+}
+
+#tt {
+    color: rgb(36, 36, 36);
+    transition: 0.3s;
+}
+
+#tt:hover {
+    color: rgb(191, 211, 255);
+}
+
+#face {
+    color: rgb(36, 36, 36);
+    transition: 0.3s;
+}
+
+#face:hover {
+    color: rgb(96, 152, 255);
+}
+
+#div-depoimentos {
+    width: 900px;
+    height: 400px;
+    margin: 0 auto 0 auto;
+}
+.div-clientes {
+    width: 250px;
+    height: 320px;
+    background-color: gainsboro;
+    box-shadow: 0px 0px 10px rgb(197, 197, 197);
+    border: solid 1.5px rgb(190, 190, 190);
+    margin: 20px;
+    float: left;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-align: center;
+}
+.div-clientes:hover {
+    background-color: rgb(201, 199, 199);
+}
+.div-img-cliente img {
+    width: 230px;
+    height: 220px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.div-descricao-clientes {
+    width: 100%;
+    height: 55px;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 18px;
+
+    color: rgb(139, 139, 139);
+}
+.div-autor-clientes {
+    height: 30px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: black;
+    margin: 20px;
+    padding: 3px;
+    text-align: center;
+    color: rgb(255, 245, 245);
+}

@@ -1,0 +1,62 @@
+#div-cadastro {
+    width: 100%;
+    height: 100%;
+}
+#div-cadastro a {
+    color: white;
+    text-decoration: none;
+}
+body {
+    background-color: #ffff33;
+}
+.painel-cadastro {
+    width: 500px;
+    height: 450px;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 10px black;
+    border: none;
+    border-radius: 5px;
+    margin: 200px auto 0 auto;
+}
+.div-titulo-cadastro {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(196, 193, 193);
+    text-align: center;
+    padding-top: 30px;
+    font-size: x-large;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    color: rgb(78, 78, 78);
+}
+.div-shadow-cadastro {
+    width: 100%;
+    height: 1px;
+    background-color: rgb(158, 158, 158);
+}
+.div-credenciais-cadastro {
+    padding-top: 30px;
+}
+.credenciais-cadastro {
+    width: 90%;
+    height: 40px;
+    margin-left: 4%;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    border: solid rgb(185, 185, 185) 1px;
+    border-radius: 3px;
+}
+.div-botao-cadastrar {
+    width: 90%;
+    height: 50px;
+    text-align: center;
+    font-size: large;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    padding-top: 30px;
+    background-color: #3ddf76;
+    color: white;
+    margin-left: 5%;
+    border-radius: 5px;
+    border: #32d16a solid 1px;
+}
+.div-botao-cadastrar:hover {
+    background-color: #31bb61;
+}
