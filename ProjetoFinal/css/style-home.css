@@ -40,8 +40,13 @@
 
 .bloco-jumbotron {
     background-color: black;
-    color: white;
-    padding: 10%;
+    background-image: url("https://www.dropbox.com/s/wxsr0dzcl6eeun8/wallhaven-p92mdm_1920x1080.png?dl=1");
+    color: black;
+    padding: 25%;
+    background-repeat: no-repeat;
+    /* -webkit-filter: blur(2px);
+	filter: blur(2px);
+    filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='2'); */
 }
 
 .buttonJB {
