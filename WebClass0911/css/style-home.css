@@ -1,0 +1,100 @@
+.cabecalho {
+    background-image: var(--bs-gradient);
+    background-color: #ffc107;
+    padding: 20px 0 0;
+    text-align: center;
+    font-size: 16px;
+    height: 50px;
+}
+
+.header {
+    text-align: center;
+}
+
+.menu {
+    background-color: gray;
+    position: relative;
+    text-align: left;
+    font-size: large;
+    min-height: 100px;
+}
+.menu a {
+    color: darkgray !important;
+    text-decoration: solid;
+}
+.menu a:hover {
+    color: black !important;
+    text-decoration: solid;
+    font-weight: bold;
+}
+
+.dropdown {
+    display: flex;
+    position: absolute;
+    /* justify-content: center; */
+    align-items: center;
+    top: 40%;
+}
+/* Dropdown */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 70px;
+    min-height: 80px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    float: none;
+    z-index: 1;
+}
+
+.dropdown-content :hover {
+    display: block;
+}
+
+.dropdown-button {
+    display: flex;
+    position: absolute;
+    /* justify-content: center; */
+    align-items: center;
+    top: 40%;
+    background-color: #ff0040;
+    color: black;
+    border: black;
+    border-width: 1px;
+    border-style: solid;
+    margin-right: 30px;
+    padding: 0 5px 0 5px;
+    cursor: pointer;
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* body */
+
+.body {
+    height: 500px;
+    width: 100%;
+    background-color: #ff0040;
+    align-items: center;
+    justify-content: center;
+}
+
+/* CONTACT */
+.contact {
+    float: left;
+    background-color: whitesmoke;
+    height: 300px;
+    width: 150px;
+}
+.contact div {
+    border: black;
+    border-style: solid;
+    height: 100px;
+    width: 100%;
+}
+.contact p {
+    text-align: center;
+    color: black;
+}
